@@ -8,33 +8,26 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Assignment3.GiantPlanet">
-    <Position X="3.5" Y="1" Width="2" />
-    <NestedTypes>
-      <Interface Name="Assignment3.GiantPlanet.IHasRings" Collapsed="true">
-        <TypeIdentifier>
-          <NewMemberFileName>GiantPlanet.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Interface>
-      <Interface Name="Assignment3.GiantPlanet.IHasMoons" Collapsed="true">
-        <TypeIdentifier>
-          <NewMemberFileName>GiantPlanet.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Interface>
-    </NestedTypes>
+    <Position X="4.75" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
     <TypeIdentifier>
       <HashCode>AAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GiantPlanet.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Assignment3.TerrestrialPlanet">
-    <Position X="3.5" Y="4" Width="2" />
+    <Position X="4.75" Y="3.25" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TerrestrialPlanet.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Assignment3.Program">
-    <Position X="0.5" Y="5.5" Width="2.25" />
+    <Position X="8" Y="0.5" Width="2.25" />
     <TypeIdentifier>
       <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>

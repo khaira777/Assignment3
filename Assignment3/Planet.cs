@@ -5,8 +5,16 @@ using System.Text;
 
 namespace Assignment3
 {
+    /**
+     * <summary>
+     * This abstract class is a blueprint for all Planet
+     * </summary>
+     * 
+     * @class Planet
+     */
     public abstract class Planet
     {
+        // PRIVATE INSTANCE VARIABLES
         private double _diameter;
         private double _mass;
         private int _moonCount;
@@ -15,51 +23,63 @@ namespace Assignment3
         private int _ringCount;
         private double _rotationPeriod;
 
+        // PUBLIC PROPERTIES
         public double Diameter
         {
-            get;
+            get { return _diameter; }
         }
-
         public double Mass
         {
-            get;
+            get { return _mass; }
         }
-
         public int MoonCount
         {
-            get;
+            get { return _moonCount; }
         }
-
         public string Name
         {
-            get;
+            get { return _name; }
         }
-
         public double OrbitalPeriod
         {
-            get;
+            get { return _orbitalPeriod; }
         }
-
         public int RingCount
         {
-            get;
+            get { return _ringCount; }
         }
-
         public double RotationPeriod
         {
-            get;
+            get { return _rotationPeriod; }
         }
-
+        // CONSTRUCTOR
+        /**
+         * <summary>
+         * This constructor takes 3 parameters: name, diameter and mass
+         * </summary>
+         * 
+         * @constructor Planet
+         */
         public Planet(string name, double diameter, double mass)
         {
+            // assign local variable to the fields
             _name = name;
             _diameter = diameter;
             _mass = mass;
         }
-
+        // OVERRIDEN METHODS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+        /**
+         * <summary>
+         * Override the default ToString function
+         * </summary>
+         * 
+         * @override
+         * @method ToString
+         * @returns {string}
+         */
         public override string ToString()
         {
-            return "Name: "+Name+"/tDiameter: "+Diameter+"/tMass:"+Mass;
+            return "Name: "+Name+"\tDiameter: "+Diameter+"\tMass:"+Mass;
         }
     }
 }
